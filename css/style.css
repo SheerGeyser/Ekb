@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+@media (min-width: 320px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+nav {
+  background-color: #000000;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 0;
+}
+
+.nav__logo {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #f0473e;
+}
+
+.nav__icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__icons img {
+  margin-left: 12px;
+}
+
+header {
+  background: url("/img/X.png") no-repeat;
+  background-position: 90% center;
+}
+
+.header__tittle {
+  padding-top: 268px;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.53;
+  color: #000000;
+}
+
+.header__tittle span {
+  color: #f0473e;
+}
+
+.header__subtittle {
+  font-size: 36px;
+  color: #f0473e;
+  padding-bottom: 354px;
+}
+
+.map {
+  padding-bottom: 85px;
+}
+
+.card__item {
+  margin-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.card__item h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.card__item p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000000;
+  margin: 13px 0;
+}
+
+.card__text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.card__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.img__item {
+  width: 253px;
+  height: 242px;
+  margin-left: 16px;
+  background: url("/img/city.jpg") center/cover no-repeat;
+}
+
+.footer {
+  background-color: #000;
+}
+
+.footer__tittle {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.6;
+  padding-top: 67px;
+  padding-bottom: 11px;
+}
+
+.footer__subtittle {
+  color: #fff;
+  font-size: 21px;
+  line-height: 1.6;
+  padding-bottom: 53px;
+}
+/*# sourceMappingURL=style.css.map */
